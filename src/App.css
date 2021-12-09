@@ -1,0 +1,65 @@
+
+.App{
+    background-color:#0C0F0A;
+    color: #757780;
+    height: 100vh;
+}
+
+.table button {
+    border: none;
+    border-radius: 10px;
+    background-color:#0C0F0A;
+    color: #fffffc;
+    text-align: center;
+}
+
+.table{
+    border: 1px solid #fffffc;
+    color:#fffffc;
+    background-color:#757780;
+    width: 50vw;
+}
+
+.dropdown{
+    text-align: center;
+    margin: 10px;
+}
+
+.table #desc{
+    width:290px;
+}
+
+.table .Textentry{
+    text-align: center;
+    color:#fffffc;
+}
+
+.animate {
+	-webkit-animation: animate 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: animate 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
